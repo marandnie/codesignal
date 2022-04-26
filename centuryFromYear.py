@@ -1,4 +1,4 @@
-/* Given a year, return the century it is in.
+'''Given a year, return the century it is in.
 The first century spans from the year 1 up to and including the year 100, the second - from the year 101 up to and including the year 200, etc.
 
 Example
@@ -28,8 +28,7 @@ The number of the century the year is in.
 # Returns a string
 def helloWorld(name):
     print("This prints to the console when you Run Tests")
-    return "Hello, " + name */
-
+    return "Hello, " + name '''
 
 def solution(year):
     return (math.trunc((year-1)/100))+1
